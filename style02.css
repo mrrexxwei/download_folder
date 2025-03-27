@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+/* Calculator Container */
+.calculator {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Display Screen */
+.screen {
+    width: 95%;
+    height: 60px;
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Buttons Container */
+.buttons {
+    width: 100%;
+}
+
+/* Button Styles */
+button {
+    display: inline-block;
+    width: 22%;
+    height: 60px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background: #444;
+    color: white;
+    transition: 0.3s;
+    margin: 5px 2px;
+}
+
+/* Operator Buttons */
+.operator {
+    background: #ff9500;
+}
+
+/* Equal Button */
+.equal {
+    background: #00cc99;
+    height: 60px;
+    vertical-align: top;
+}
+
+/* Zero Button (Takes More Space) */
+.zero {
+    width: 47%;
+}
